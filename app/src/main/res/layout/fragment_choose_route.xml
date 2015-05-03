@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="16dp"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:textColor="@color/grey_dark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_name"
+        android:padding="16dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:alpha="0.9"
+        android:background="@color/white">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edit_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/choose_start"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"
+            app:baseColor="@color/blue"
+            app:floatingLabel="highlight"
+            app:errorColor="@color/red" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edit_destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/choose_destination"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"
+            app:baseColor="@color/blue"
+            app:floatingLabel="highlight"
+            app:errorColor="@color/red" />
+
+        <Button
+            android:id="@+id/button_search_route"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_route"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_default"/>
+
+        </LinearLayout>
+
+</RelativeLayout>

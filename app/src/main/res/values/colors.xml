@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+
+    <color name="grey_light">#ffcecece</color>
+    <color name="grey">#ff666666</color>
+    <color name="grey_dark">#ff333333</color>
+
+    <color name="blue_very_light">#ff64a8d1</color>
+    <color name="blue_light">#ff3d9ad1</color>
+    <color name="blue">#ff1777b7</color>
+    <color name="blue_dark">#ff004976</color>
+    <color name="blue_very_dark">#ff003a5e</color>
+    <color name="blue_dark2">#ff0c56aa</color>
+    <color name="blue_very_dark2">#ff0c4382</color>
+
+    <color name="green_light">#ff4caf50</color>
+    <color name="green">#ff388e3c</color>
+    <color name="green_dark">#ff2e7d32</color>
+    <color name="green_very_dark">#ff1c6321</color>
+    <color name="green_very_very_dark">#ff0f5815</color>
+
+    <color name="red">#ffb8555f</color>
+    <color name="red_dark">#ff9d4246</color>
+    <color name="red_very_dark">#ff82292d</color>
+
+    <color name="drawer_background">#fff2f2f2</color>
+    <color name="window_background">#ffdedede</color>
+
+    <color name="selected_gray">#ffdbdbdb</color>
+</resources>

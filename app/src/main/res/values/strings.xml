@@ -1,6 +1,27 @@
 <resources>
-    <string name="app_name">MPKMobile</string>
+    <string name="app_name">MPK Mobile</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <!-- COMMON -->
+    <string name="choose">Wybierz</string>
+    <string name="search">Szukaj</string>
+    <string name="add">Dodaj</string>
+    <string name="list">Lista</string>
+    <string name="map">Mapa</string>
+
+    <!-- CHOOSE FRAGMENT -->
+    <string name="choose_route">Wyznacz trasę</string>
+    <string name="shedules">Rozkłady</string>
+
+    <!-- CHOOSE ROUTE FRAGMENT -->
+    <string name="choose_start">Wybierz punkt startowy</string>
+    <string name="choose_destination">Wybierz punkt docelowy</string>
+
+    <!-- PROGRESS -->
+    <string name="downloading">Pobieranie…</string>
+    <string name="progress_loading">Ładowanie…</string>
+
+    <!-- PROBLEMS -->
+    <string name="network_failed">Brak połączenia z internetem</string>
+    <string name="field_required">To pole jest wymagane</string>
+
 </resources>
